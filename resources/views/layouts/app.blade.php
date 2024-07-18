@@ -4,11 +4,11 @@
 <head>
   <meta charset="UTF-8">
   <title>Book Reviews</title>
-  <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio"></script>
-  <!-- @vite('resources/css/app.css') -->
+  <!-- <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio"></script> -->
+  @vite('resources/css/app.css')
 
   {{-- blade-formatter-disable --}}
-  <style type="text/tailwindcss">
+  <!-- <style type="text/tailwindcss">
     .btn {
       @apply bg-white rounded-md px-4 py-2 text-center font-medium text-slate-500 shadow-sm ring-1 ring-slate-700/10 hover:bg-slate-50 h-10;
     }
@@ -18,7 +18,7 @@
     }
 
     .filter-container {
-      @apply mb-4 flex space-x-2 rounded-md bg-slate-100 p-2;
+      @apply mb-4 flex space-x-2 rounded-md bg-slate-200 p-2;
     }
 
     .filter-item {
@@ -60,7 +60,7 @@
     .reset-link {
       @apply text-slate-500 underline;
     }
-  </style>
+  </style> -->
   {{-- blade-formatter-enable --}}
 </head>
 
